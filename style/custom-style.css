@@ -1,0 +1,401 @@
+/* line 18, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #2d2d2d; }
+
+/* line 22, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Alata', sans-serif;
+  color: #2d2d2d; }
+
+/* line 30, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.btn {
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-weight: 600;
+  width: fit-content; }
+  /* line 36, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .btn.btn-primary {
+    background-color: #0B0FFF; }
+    /* line 38, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .btn.btn-primary:hover {
+      background-color: #4B4EFB; }
+  /* line 41, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .btn.btn-secondary {
+    background-color: #fff;
+    border: solid 2px #0B0FFF;
+    color: #0B0FFF; }
+    /* line 45, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .btn.btn-secondary:hover {
+      border-color: #4B4EFB;
+      color: #4B4EFB; }
+
+/* line 50, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+a {
+  color: #E8124F;
+  font-weight: 600;
+  text-decoration: none; }
+  /* line 54, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  a:hover {
+    color: #EF5B85; }
+
+/* line 58, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.card-link {
+  color: #E8124F;
+  font-weight: 600;
+  text-decoration: none; }
+
+/* line 63, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.btn-icon {
+  width: 24px;
+  height: 24px; }
+
+/* line 69, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.navbar {
+  padding: 20px 0px; }
+  /* line 72, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .navbar li {
+    padding: 0 10px; }
+  /* line 74, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .navbar a {
+    color: #2d2d2d;
+    font-weight: 400; }
+    /* line 77, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .navbar a.active {
+      color: #E8124F; }
+    /* line 79, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .navbar a:hover {
+      color: #E8124F; }
+
+/* line 82, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.navbar-toggler {
+  box-shadow: 0; }
+  /* line 84, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .navbar-toggler:focus {
+    box-shadow: none; }
+
+@media (max-width: 991.8px) {
+  /* line 87, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .navbar-collapse {
+    height: 100vh; } }
+
+@media (max-width: 991.8px) {
+  /* line 91, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  #logo {
+    width: 200px; } }
+
+/* line 96, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.navbar-toggler.collapsed .navbar-toggler-icon {
+  background-image: url("../images/menu_bars.svg"); }
+
+/* line 99, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("../images/menu_close.svg"); }
+
+@media (max-width: 991.98px) {
+  /* line 103, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .navbar-nav {
+    margin-top: calc(100vh - 350px);
+    font-size: 2rem; } }
+
+/* line 108, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.grey-section {
+  background-color: #f9f9f9; }
+
+/* line 111, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-header {
+  position: relative;
+  height: 70vh;
+  margin-left: 3rem;
+  margin-right: 3rem; }
+  @media (max-width: 991.8px) {
+    /* line 111, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .section-header {
+      margin-left: 0rem;
+      margin-right: 0rem; }
+      /* line 119, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .section-header.portfolio-section {
+        height: 100vh; } }
+
+/* line 123, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-footer li {
+  list-style: none;
+  display: inline;
+  padding: 20px; }
+
+/* line 128, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-footer img {
+  width: 35px; }
+
+/* line 131, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-footer {
+  background: url("../images/footer_bg.svg") no-repeat center;
+  background-size: cover;
+  height: 50vh;
+  bottom: 0; }
+
+/* line 137, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.email-link {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 144, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.home-bg {
+  background: url(../images/home_bg.svg) no-repeat top right;
+  background-size: contain; }
+  @media (max-width: 991.8px) {
+    /* line 144, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .home-bg {
+      background-size: auto; } }
+
+/* line 150, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-my-work {
+  position: relative;
+  background-color: #f9f9f9; }
+
+/* line 154, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.work-item {
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  height: 400px;
+  overflow: hidden;
+  z-index: 2;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }
+  @media (max-width: 991.8px) {
+    /* line 154, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .work-item {
+      height: auto; } }
+  /* line 166, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .work-item .desktop img {
+    right: 0;
+    bottom: 20px; }
+    @media (max-width: 991.8px) {
+      /* line 166, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .work-item .desktop img {
+        right: -90px; } }
+  /* line 172, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .work-item img {
+    height: 350px;
+    position: absolute;
+    bottom: 0; }
+    @media (max-width: 921.98px) {
+      /* line 172, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .work-item img {
+        height: 275px; } }
+  /* line 179, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .work-item .col-7 {
+    padding: 20px; }
+
+/* line 182, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.item-cont {
+  position: relative; }
+
+/* line 185, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.item-border {
+  position: absolute;
+  border: solid 2px;
+  border-radius: 5px;
+  width: 95%;
+  z-index: 1;
+  height: 95%;
+  left: -1px;
+  bottom: -10px; }
+
+/* line 195, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.card {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }
+
+/* line 199, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.dribbble-cont {
+  border: solid 2px;
+  border-radius: 5px;
+  padding: 40px;
+  background: url("../images/dribbble.svg") no-repeat right; }
+
+/* line 205, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-quote {
+  background: url("../images/quote.svg") no-repeat left top;
+  background-size: 150px;
+  padding: 100px 150px 50px 150px;
+  font-style: italic; }
+  @media (max-width: 991.92px) {
+    /* line 205, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .section-quote {
+      padding: 120px 10px 50px 10px; } }
+
+/* line 213, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.quote-source {
+  position: relative; }
+  /* line 215, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .quote-source p {
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    right: auto;
+    margin: 0;
+    min-width: 150px; }
+  /* line 222, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .quote-source .quote-image {
+    width: 100%;
+    position: relative; }
+
+/* line 228, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.section-career {
+  position: relative;
+  border-top: solid black 2px;
+  background: url("../images/career_bg.svg") no-repeat right -2px;
+  background-color: #f9f9f9; }
+  @media (max-width: 991.92px) {
+    /* line 228, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .section-career {
+      border-top: solid black 1px;
+      background-size: 150%;
+      background-position: top; } }
+
+/* line 238, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.about-header {
+  background: url("../images/header_bg.svg") no-repeat right;
+  background-size: 35%; }
+  @media (max-width: 991.92px) {
+    /* line 238, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .about-header {
+      background-size: 70%;
+      background-position: bottom right; } }
+  /* line 244, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .about-header .row {
+    height: 70vh;
+    margin-left: 3rem;
+    margin-right: 3rem; }
+    @media (max-width: 991.8px) {
+      /* line 244, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .about-header .row {
+        margin-left: auto;
+        margin-right: auto;
+        height: 90vh; } }
+  /* line 253, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .about-header img {
+    width: 70%; }
+    @media (max-width: 991.92px) {
+      /* line 253, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .about-header img {
+        width: 70%; } }
+
+/* line 258, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.my-snaps {
+  width: 100%; }
+
+/* line 261, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.my-favs {
+  width: 70%; }
+  @media (max-width: 991.92px) {
+    /* line 261, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .my-favs {
+      width: 90%; } }
+
+/* line 266, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.no-gutter {
+  padding: 0; }
+
+/* line 271, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.portfolio-header {
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-position: right; }
+  @media (max-width: 991.92px) {
+    /* line 271, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .portfolio-header {
+      background-size: 50%;
+      background-position: right; } }
+  /* line 279, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .portfolio-header.optimise-header {
+    background-image: url("../images/portfolio/header_bg_optimise.svg"); }
+  /* line 281, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .portfolio-header.ourpeople-header {
+    background-image: url("../images/portfolio/header_bg_op.svg"); }
+  /* line 283, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .portfolio-header.beatfit-header {
+    background-image: url("../images/portfolio/header_bg_beatfit.svg"); }
+  /* line 285, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .portfolio-header.paultons-header {
+    background-image: url("../images/portfolio/header_bg_paultons.svg"); }
+  /* line 289, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .portfolio-header img {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 80%; }
+    @media (max-width: 991.92px) {
+      /* line 289, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .portfolio-header img {
+        width: 100%; } }
+    /* line 294, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .portfolio-header img.mobile-header {
+      width: 240px; }
+
+/* line 297, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.stats-section {
+  background-color: #fff;
+  border-radius: 5px;
+  border: solid 2px black;
+  position: relative;
+  padding: 20px;
+  overflow-wrap: anywhere;
+  max-width: 60%; }
+  @media (max-width: 991.92px) {
+    /* line 297, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .stats-section {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px; } }
+  /* line 310, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .stats-section .cactus {
+    width: 60px;
+    position: absolute;
+    top: -75px;
+    overflow: visible; }
+
+/* line 316, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.port-image {
+  position: relative; }
+  /* line 319, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .port-image .item-border {
+    width: 500px;
+    z-index: 1;
+    height: 95%;
+    left: auto;
+    top: auto; }
+  /* line 325, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .port-image img {
+    position: relative;
+    width: 90%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }
+    @media (max-width: 991.92px) {
+      /* line 325, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+      .port-image img {
+        width: 100%; } }
+    /* line 333, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+    .port-image img.mobile-screen {
+      width: 250px; }
+  /* line 336, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .port-image p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #828282; }
+
+/* line 342, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+.port-video {
+  max-width: 100%;
+  height: auto; }
+  /* line 346, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .port-video video {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); }
+  /* line 349, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
+  .port-video p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.8rem;
+    color: #828282; }
+
+/*# sourceMappingURL=custom-style.css.map */
