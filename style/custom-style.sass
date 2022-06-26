@@ -18,13 +18,13 @@ $black: #2d2d2d
 body
     font-family: 'Poppins', sans-serif
     color: $black
-    
+
 h1, h2, h3, h4, h5, h6
     font-family: 'Alata', sans-serif
     color: $black
-    
-    
-    
+
+
+
 // CTAs
 
 .btn
@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6
     padding: 15px 40px
     font-weight: 600
     width: fit-content
-    
+
     &.btn-primary
         background-color: $primary-blue
         &:hover
             background-color: $primary-blue-light
-        
+
     &.btn-secondary
         background-color: #fff
         border: solid 2px $primary-blue
@@ -45,31 +45,31 @@ h1, h2, h3, h4, h5, h6
         &:hover
             border-color: $primary-blue-light
             color: $primary-blue-light
-        
-        
+
+
 a
     color: $primary-red
     font-weight: 600
     text-decoration: none
     &:hover
         color: $primary-red-light
-    
-        
+
+
 .card-link
     color: $primary-red
     font-weight: 600
     text-decoration: none
-    
+
 .btn-icon
     width: 24px
     height: 24px
-    
+
 // Global styles
-    
+
 .navbar
     padding: 20px 0px
-    
-    li 
+
+    li
         padding: 0 10px
     a
         color: $black
@@ -83,31 +83,31 @@ a
     box-shadow: 0
     &:focus
         box-shadow: none
-    
+
 .navbar-collapse
     @media (max-width: 991.8px)
         height: 100vh
-    
+
 #logo
     @media(max-width: 991.8px)
         width: 200px
-        
+
 .navbar-toggler.collapsed
     .navbar-toggler-icon
         background-image: url('../images/menu_bars.svg')
-    
+
 .navbar-toggler .navbar-toggler-icon
     background-image: url('../images/menu_close.svg')
 
 @media (max-width: 991.98px)
     .navbar-nav
         margin-top: calc(100vh - 350px)
-        font-size: 2rem   
-    
-    
+        font-size: 2rem
+
+
 .grey-section
     background-color: $grey-lightest
-    
+
 .section-header
     position: relative
     height: 70vh
@@ -118,39 +118,39 @@ a
         margin-right: 0rem
         &.portfolio-section
             height: 100vh
-    
+
 .section-footer
-    li 
+    li
         list-style: none
         display: inline
         padding: 20px
-        
+
     img
         width: 35px
-        
+
 .section-footer
     background: url("../images/footer_bg.svg") no-repeat center
     background-size: cover
     height: 50vh
     bottom: 0
-    
+
 .email-link
     width: auto;
     margin-left: auto;
     margin-right: auto;
-    
+
 // Home styles
-    
+
 .home-bg
     background: url(../images/home_bg.svg) no-repeat top right
     background-size: contain
     @media (max-width: 991.8px)
         background-size: auto
-    
+
 .section-my-work
     position: relative
     background-color: $grey-lightest
-    
+
 .work-item
     position: relative
     border-radius: 5px;
@@ -161,27 +161,27 @@ a
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
     @media (max-width: 991.8px)
         height: auto
-    
+
     .desktop
             img
                 right: 0
                 bottom: 20px
                 @media (max-width: 991.8px)
                     right: -90px
-        
+
     img
         height: 350px
         position: absolute
         bottom: 0
         @media (max-width: 921.98px)
             height: 275px
-    
+
     .col-7
         padding: 20px
-    
+
 .item-cont
     position: relative
-    
+
 .item-border
     position: absolute
     border: solid 2px
@@ -194,14 +194,14 @@ a
 
 .card
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
-    
-    
+
+
 .dribbble-cont
     border: solid 2px
     border-radius: 5px
     padding: 40px
     background: url("../images/dribbble.svg") no-repeat right
-    
+
 .section-quote
     background: url("../images/quote.svg") no-repeat left top
     background-size: 150px
@@ -209,7 +209,7 @@ a
     font-style: italic
     @media (max-width: 991.92px)
         padding: 120px 10px 50px 10px
-    
+
 .quote-source
         position: relative
         p
@@ -222,19 +222,19 @@ a
         .quote-image
             width: 100%
             position: relative
-              
+
 // About styles
 
-.section-career 
+.section-career
     position: relative
-    border-top: solid black 2px 
+    border-top: solid black 2px
     background: url("../images/career_bg.svg") no-repeat right -2px
     background-color: $grey-lightest
     @media (max-width: 991.92px)
-        border-top: solid black 1px 
+        border-top: solid black 1px
         background-size: 150%
         background-position: top
-        
+
 .about-header
     background: url("../images/header_bg.svg") no-repeat right
     background-size: 35%
@@ -249,7 +249,7 @@ a
             margin-left: auto
             margin-right: auto
             height: 90vh
-            
+
     img
         width: 70%
         @media (max-width: 991.92px)
@@ -257,15 +257,15 @@ a
 
 .my-snaps
     width: 100%
-    
+
 .my-favs
     width: 70%
     @media (max-width: 991.92px)
             width: 90%
-    
+
 .no-gutter
     padding: 0
-    
+
 // Portfolio styles
 
 .portfolio-header
@@ -275,17 +275,19 @@ a
     @media (max-width: 991.92px)
         background-size: 50%
         background-position: right
-        
+
     &.optimise-header
-        background-image: url("../images/portfolio/header_bg_optimise.svg") 
+        background-image: url("../images/portfolio/header_bg_optimise.svg")
     &.ourpeople-header
-        background-image: url("../images/portfolio/header_bg_op.svg") 
+        background-image: url("../images/portfolio/header_bg_op.svg")
     &.beatfit-header
-        background-image: url("../images/portfolio/header_bg_beatfit.svg") 
+        background-image: url("../images/portfolio/header_bg_beatfit.svg")
     &.paultons-header
-        background-image: url("../images/portfolio/header_bg_paultons.svg") 
-        
-        
+        background-image: url("../images/portfolio/header_bg_paultons.svg")
+    &.hmrc-header
+        background-image: url("../images/portfolio/header_bg_hmrc.svg")
+
+
     img
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
         width: 80%
@@ -293,7 +295,7 @@ a
             width: 100%
         &.mobile-header
             width: 240px
-            
+
 .stats-section
     background-color: #fff
     border-radius: 5px
@@ -315,7 +317,7 @@ a
 
 .port-image
     position: relative
-    
+
     .item-border
         width: 500px
         z-index: 1
@@ -326,23 +328,23 @@ a
         position: relative
         width: 90%
         box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
-        
+
         @media (max-width: 991.92px)
             width: 100%
-            
+
         &.mobile-screen
             width: 250px
-        
+
     p
         text-align: center
         padding-top: 20px
         font-size: 0.8rem
         color: $grey
-        
+
 .port-video
         max-width: 100%
         height: auto;
-        
+
         video
             box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1)
 
@@ -351,5 +353,3 @@ a
             padding-top: 20px
             font-size: 0.8rem
             color: $grey
-
-

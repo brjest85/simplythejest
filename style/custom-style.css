@@ -320,6 +320,8 @@ a {
   /* line 285, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
   .portfolio-header.paultons-header {
     background-image: url("../images/portfolio/header_bg_paultons.svg"); }
+  .portfolio-header.hmrc-header {
+    background-image: url("../images/portfolio/header_bg_hmrc.svg"); }
   /* line 289, /Users/benjest/Documents/Personal/BenJest/website/style/custom-style.sass */
   .portfolio-header img {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
